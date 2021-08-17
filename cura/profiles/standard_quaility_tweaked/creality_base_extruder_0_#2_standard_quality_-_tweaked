@@ -1,0 +1,25 @@
+[general]
+version = 4
+name = Standard Quality - tweaked
+definition = creality_base
+
+[metadata]
+type = quality_changes
+quality_type = standard
+intent_category = default
+position = 0
+setting_version = 17
+
+[values]
+infill_pattern = trihexagon
+infill_sparse_density = 10
+material_flow_layer_0 = 100
+material_print_temperature = 200
+material_print_temperature_layer_0 = 205
+retraction_amount = 10.0
+retraction_hop_enabled = False
+speed_wall_x = 35
+wall_line_count = 2
+wall_thickness = 1.6
+xy_offset_layer_0 = -0.25
+
